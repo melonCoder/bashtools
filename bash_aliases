@@ -1,7 +1,0 @@
-#alias up='cd ..'
-#alias up2='cd ../..'
-#alias up3='cd ../../../'
-#alias up4='cd ../../../../'
-alias cd='\source ~/.bash/cd.sh $1'
-alias up='\source ~/.bash/up.sh $1'
-#alias source='\source ~/.bash/source.sh $1'
