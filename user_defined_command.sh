@@ -18,18 +18,3 @@ function vnote(){
     fi
     vim ~/note/$noteName
 }
-
-# cd into a directory, clear the screen and list current directory
-function cd(){
-    if [ "a$1" == "a" ]
-    then
-        cd ~
-    else
-        if builtin cd $1
-        then 
-            clear
-            ls --color=auto
-            return 0
-        fi
-    fi
-}
